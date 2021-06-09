@@ -135,3 +135,96 @@ body {
   font-size: 1rem;
   color: var(--white);
 }
+.chat__chats {
+}
+.chat__chats__left {
+}
+.chats__left {
+  width: 12rem;
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.2rem;
+  background: var(--grayishBlue);
+}
+.chats__left p {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--ModerateViolet);
+}
+.chat__chats__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 1rem;
+}
+.chats__right {
+  margin-top: 0.8rem;
+}
+.chats__right p {
+  width: 12rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  border-radius: 0.8rem 0.8rem 0.2rem 0.8rem;
+  color: var(--desaturatedDarkViolet);
+  background: var(--white);
+  -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
+}
+.chats__right img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+}
+.chats__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  padding: 1rem;
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  color: var(--lightGrayishViolet);
+  border-radius: 0.8rem 0.8rem 0.8rem 0.2rem;
+  background: linear-gradient(to left, #8838ff, #e942ff 80%);
+}
+.input__radio {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.chats__input span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+input[type='radio']:after {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  top: -0.2rem;
+  left: -0.1rem;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 0.2rem solid var(--veryLightMagenta);
+}
+
+input[type='radio']:checked:after {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  top: -0.2rem;
+  left: -0.1rem;
+  position: relative;
+  background-color: var(--veryDarkDesaturatedViolet);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 0.2rem solid var(--veryLightMagenta);
+}
