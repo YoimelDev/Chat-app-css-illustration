@@ -60,7 +60,7 @@ body {
   padding-top: 7rem;
 }
 .chat__border {
-  width: 23rem;
+  width: 25rem;
   height: 45rem;
   border: 1rem solid var(--white);
   border-radius: 3rem;
@@ -110,11 +110,11 @@ body {
   margin-left: 2rem;
 }
 .chat__header__icons i {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--white);
 }
 .chat__header__icons img {
-  height: 3rem;
+  height: 2.5rem;
   border: 0.01rem solid var(--white);
   border-radius: 50%;
 }
@@ -123,9 +123,11 @@ body {
 }
 .chat__header__data h2 {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
 }
 .chat__header__data p {
+  color: var(--paleViolet);
   font-size: 0.8rem;
 }
 .chat__header__ellipsis {
