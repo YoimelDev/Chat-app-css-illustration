@@ -258,3 +258,9 @@ input[type='radio']:checked:after {
 .chat__message button:hover {
   cursor: pointer;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
