@@ -29,3 +29,43 @@ html {
   margin: 0;
   padding: 0;
 }
+body {
+  font-size: 1.6rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+}
+.background {
+  width: 18.75rem;
+  height: 50vh;
+  background: var(--gradient);
+  border-radius: 0 0 20rem;
+}
+.background2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  width: 18.75rem;
+  height: 50vh;
+  border-radius: 20rem 0 0;
+  background: var(--lightGrayishViolet);
+}
+.chat {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+}
+.chat__border {
+  width: 23rem;
+  height: 45rem;
+  border: 1rem solid var(--white);
+  border-radius: 3rem;
+  position: absolute;
+  background: var(--lightGrayishViolet);
+  -webkit-box-shadow: 10px 7px 72px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 7px 72px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 7px 72px -20px rgba(0, 0, 0, 0.75);
+}
