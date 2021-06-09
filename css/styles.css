@@ -278,3 +278,9 @@ input[type='radio']:checked:after {
   line-height: 2.5rem;
   color: var(--darkGrayishViolet);
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
