@@ -30,6 +30,7 @@ html {
   padding: 0;
 }
 body {
+  font-family: var(--fontRubik);
   font-size: 1.6rem;
 }
 .grid {
@@ -68,4 +69,67 @@ body {
   -webkit-box-shadow: 10px 7px 72px -20px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 7px 72px -20px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 7px 72px -20px rgba(0, 0, 0, 0.75);
+}
+.chat__header {
+  height: 7rem;
+  border-radius: 2rem 2rem 0.5rem 0.5rem;
+  background: linear-gradient(to left, #e942ff 25%, #8838ff);
+  -webkit-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
+}
+.chat__header__head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 12rem;
+  height: 2rem;
+  margin-top: -0.1rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  background: var(--white);
+}
+.chat__header__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  padding-top: 4.5rem;
+}
+.chat__header__box__per {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.chat__header__icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+.chat__header__icons i {
+  font-size: 1.3rem;
+  color: var(--white);
+}
+.chat__header__icons img {
+  height: 3rem;
+  border: 0.01rem solid var(--white);
+  border-radius: 50%;
+}
+.chat__header__data {
+  color: var(--white);
+}
+.chat__header__data h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.chat__header__data p {
+  font-size: 0.8rem;
+}
+.chat__header__ellipsis {
+  margin-right: 2rem;
+  font-size: 1rem;
+  color: var(--white);
 }
