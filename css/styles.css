@@ -37,23 +37,14 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
   position: absolute;
-  top: 0;
-  bottom: 0;
 }
 .background {
-  width: 18.75rem;
-  height: 50vh;
+  max-width: 30rem;
+  height: 80vh;
   background: var(--gradient);
   border-radius: 0 0 20rem;
-}
-.background2 {
-  grid-row: 2/3;
-  grid-column: 2/3;
-  width: 18.75rem;
-  height: 50vh;
-  border-radius: 20rem 0 0;
-  background: var(--lightGrayishViolet);
 }
 .chat {
   display: flex;
@@ -136,10 +127,6 @@ body {
   margin-right: 2rem;
   font-size: 1rem;
   color: var(--white);
-}
-.chat__chats {
-}
-.chat__chats__left {
 }
 .chats__left {
   width: 12rem;
@@ -283,4 +270,5 @@ input[type='radio']:checked:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
