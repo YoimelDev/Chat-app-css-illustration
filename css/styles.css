@@ -362,6 +362,9 @@ input[type='radio']:checked:after {
   .main p {
     margin: 0;
   }
+  .main {
+    align-items: initial;
+  }
   .main p {
     width: 45rem;
     margin-top: 2.5rem;
