@@ -135,6 +135,62 @@ body {
 .chat__header__ellipsis i:hover {
   cursor: pointer;
 }
+@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) translate3d(0, 0, 0);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+
+  80% {
+    opacity: 1;
+    transform: scale(0.89);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+.ani1 {
+  animation-delay: 0.5s;
+}
+.ani2 {
+  animation-delay: 1s;
+}
+.ani3 {
+  animation-delay: 2.5s;
+}
+.ani4 {
+  animation-delay: 3s;
+}
+.ani5 {
+  animation-delay: 4s;
+}
+.ani6 {
+  animation-delay: 4.5s;
+}
+.ani7 {
+  animation-delay: 5s;
+}
+.ani8 {
+  animation-delay: 5.5s;
+}
+.animation {
+  opacity: 0;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-duration: 450ms;
+  animation-duration: 450ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 .chats__left {
   width: 12rem;
   margin-top: 0.8rem;
