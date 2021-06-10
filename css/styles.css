@@ -135,7 +135,7 @@ body {
 .chat__header__ellipsis i:hover {
   cursor: pointer;
 }
-@-webkit-keyframes bounceIn {
+@keyframes bounceIn {
   0% {
     opacity: 0;
     transform: scale(0.3) translate3d(0, 0, 0);
@@ -182,13 +182,9 @@ body {
 }
 .animation {
   opacity: 0;
-  -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
-  -webkit-animation-duration: 450ms;
   animation-duration: 450ms;
-  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 .chats__left {
@@ -328,6 +324,7 @@ input[type='radio']:checked:after {
   color: var(--veryDarkDesaturatedViolet);
 }
 .main p {
+  width: 31.5rem;
   margin: 2.5rem 3rem;
   margin-bottom: 8rem;
   text-align: center;
@@ -340,4 +337,9 @@ input[type='radio']:checked:after {
   justify-content: center;
   align-items: center;
   position: relative;
+  bottom: 0;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
 }
