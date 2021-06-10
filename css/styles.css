@@ -2,7 +2,7 @@
   --fontRubik: 'Rubik', sans-serif;
 
   --paleViolet: hsl(276, 100%, 81%);
-  --ModerateViolet: hsl(276, 55%, 52%);
+  --ModerateViolet: rgb(146, 65, 200);
   --desaturatedDarkViolet: hsl(271, 15%, 43%);
   --grayishBlue: hsl(206, 6%, 79%);
   --veryDarkDesaturatedViolet: hsl(271, 36%, 24%);
@@ -106,6 +106,9 @@ body {
   font-size: 1rem;
   color: var(--white);
 }
+.chat__header__icons i:hover {
+  cursor: pointer;
+}
 .chat__header__icons img {
   height: 2.5rem;
   border: 0.01rem solid var(--white);
@@ -118,6 +121,7 @@ body {
   font-weight: 500;
   font-size: 1rem;
   margin-bottom: 0.2rem;
+  color: var(--lightGrayishViolet);
 }
 .chat__header__data p {
   color: var(--paleViolet);
@@ -128,12 +132,15 @@ body {
   font-size: 1rem;
   color: var(--white);
 }
+.chat__header__ellipsis i:hover {
+  cursor: pointer;
+}
 .chats__left {
   width: 12rem;
   margin-top: 0.8rem;
   margin-left: 1rem;
   border-radius: 0.8rem 0.8rem 0.8rem 0.2rem;
-  background: var(--grayishBlue);
+  background: #d89eff26;
 }
 .chats__left p {
   padding: 0.5rem;
@@ -162,6 +169,9 @@ body {
   -moz-box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.08);
 }
+.chats__right:last-of-type p {
+  width: 8rem;
+}
 .chats__right img {
   width: 4rem;
   height: 4rem;
@@ -189,6 +199,9 @@ body {
   font-size: 1.2rem;
   font-weight: 700;
   color: white;
+}
+input[type='radio']:hover {
+  cursor: pointer;
 }
 input[type='radio']:after {
   width: 1.5rem;
