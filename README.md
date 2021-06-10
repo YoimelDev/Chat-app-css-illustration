@@ -6,7 +6,7 @@
 
 ## 🎨 Preview
 
-You can see the result here → [Chat app CSS illustration]()
+You can see the result here → [Chat app CSS illustration](https://chat-app-illustration-yoimeldev.netlify.app/)
 
 <details>
     <summary>🖥️ Desktop version</summary>
